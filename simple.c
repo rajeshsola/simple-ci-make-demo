@@ -9,7 +9,7 @@ int main()
   d=square(a);
   //int res = a++ * a++;
   int *ptr = malloc(100);
-  printf("c=%d,d=%d\n",c,d);
+  printf("c=%d,d=%d\n",c,d); //some comment
   free(ptr);
   return 0;
 }
